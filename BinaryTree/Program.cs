@@ -15,9 +15,8 @@ namespace BinaryTree
             bst.Insert(bst.Root, 60);
             bst.Insert(bst.Root, 90);
 
-            Console.WriteLine("Preorder Traversal");
-            bst.PreorderRecursiveTraversal(bst.Root);
-            
+            Console.WriteLine("Postorder Traversal");
+            bst.PostOrderRecursive(bst.Root);          
         }
     }
 }

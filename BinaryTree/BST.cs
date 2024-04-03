@@ -94,6 +94,16 @@
             }
         }
 
+        public void PostOrderRecursive(Node tempRoot)
+        {
+            if(tempRoot != null)
+            {
+                PostOrderRecursive(tempRoot.Left);
+                PostOrderRecursive(tempRoot.Right);
+                PrintNodeElement(tempRoot.Element);
+            }
+        }
+
 
         public void PrintNodeElement(int element)
                 => Console.Write($"{element} ");

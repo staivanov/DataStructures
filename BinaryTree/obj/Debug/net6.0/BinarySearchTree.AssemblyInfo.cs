@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BinarySearchTree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dbd682daeae0ddf608119e67e6e081874dfe44c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15ed60488f3a2202f938a3328ccc09edc4d9958a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BinarySearchTree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BinarySearchTree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
