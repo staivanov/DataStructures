@@ -15,7 +15,7 @@
             while (tempRoot != null)
             {
                 temp = tempRoot;
-
+                
                 if (element == tempRoot.Element)
                 {
                     return;
@@ -49,6 +49,7 @@
             }
         }
 
+
         public Node InsertRecursive(Node tempRoot, int element)
         {
             if (tempRoot != null)
@@ -71,6 +72,7 @@
             return tempRoot;
         }
 
+
         public void Inorder(Node tempRoot)
         {
             if (tempRoot != null)
@@ -81,6 +83,7 @@
             }
         }
 
+
         public void PreorderRecursiveTraversal(Node tempRoot)
         {
             if(tempRoot != null)
@@ -90,6 +93,7 @@
                 PreorderRecursiveTraversal(tempRoot.Right);
             }
         }
+
 
         public void PrintNodeElement(int element)
                 => Console.Write($"{element} ");
