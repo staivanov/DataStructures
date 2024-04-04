@@ -1,4 +1,6 @@
-﻿namespace BinarySearchTree
+﻿using QueueLinkedList;
+
+namespace BinarySearchTree
 {
     public class BST
     {   //  50
@@ -49,7 +51,6 @@
             }
         }
 
-
         public Node InsertRecursive(Node tempRoot, int element)
         {
             if (tempRoot != null)
@@ -72,7 +73,6 @@
             return tempRoot;
         }
 
-
         public void Inorder(Node tempRoot)
         {
             if (tempRoot != null)
@@ -82,7 +82,6 @@
                 Inorder(tempRoot.Right);
             }
         }
-
 
         public void PreorderRecursiveTraversal(Node tempRoot)
         {
@@ -104,8 +103,57 @@
             }
         }
 
+        public void LevelOrder()
+        {
+            QueueLinked queueLinked = new();
+            Node t = Root;
+            Console.Write($"{t.Element}");
+            queueLinked.Enqueue(t);
 
-        public void PrintNodeElement(int element)
+            while (!queueLinked.IsEmpty())
+            {
+                t = queueLinked.Dequeue() as Node;
+
+                if(t.Left != null)
+                {
+                    Console.Write($"{t.Left} ");
+                    queueLinked.Enqueue(t.Left);
+                }
+                if(t.Right != null)
+                {
+                    Console.Write($"{t.Left} ");
+                    queueLinked.Enqueue(t.Right);
+                }
+            }
+
+        }
+
+        public bool Search(int key)
+        {
+            Node tempRoot = Root;
+            bool isKeyAvailable = true;
+
+            while(tempRoot != null)
+            {
+                if(key == tempRoot.Element)
+                {
+                    return isKeyAvailable;
+                }
+                else if(key < tempRoot.Element)
+                {
+                    tempRoot = tempRoot.Left;
+                }
+                else if(key > tempRoot.Element)
+                {
+                    tempRoot = tempRoot.Right;
+                }
+            }
+
+            return !isKeyAvailable;
+        }
+
+
+        private static void PrintNodeElement(int element)
                 => Console.Write($"{element} ");
     }
 }
