@@ -15,9 +15,11 @@ namespace BinaryTree
             bst.Insert(bst.Root, 60);
             bst.Insert(bst.Root, 90);
 
-            Console.WriteLine("Please, enter your searched key: ");
-            int key = int.Parse(Console.ReadLine());
-            Console.WriteLine($"Is element present in the Binary Search Tree? : {bst.Search(key)}");
+            //Console.WriteLine("Please, enter your searched key: ");
+            //int key = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"Is element present in the Binary Search Tree? : {bst.Search(key)}");
+
+            Console.WriteLine($"Number of nodes are: {bst.Count(bst.Root)}");
         }
     }
 }
