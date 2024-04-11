@@ -19,7 +19,8 @@ namespace BinaryTree
             //int key = int.Parse(Console.ReadLine());
             //Console.WriteLine($"Is element present in the Binary Search Tree? : {bst.Search(key)}");
 
-            Console.WriteLine($"Number of nodes are: {bst.Count(bst.Root)}");
+            //Console.WriteLine($"Number of nodes are: {bst.Count(bst.Root)}");
+            Console.WriteLine($"Height of BST is: {bst.Height(bst.Root)}");
         }
     }
 }

@@ -227,6 +227,26 @@ namespace BinarySearchTree
             return 0;
         }
 
+        public int Height(Node tempRoot)
+        {
+            if (tempRoot != null)
+            {
+                int x = Height(tempRoot.Left);
+                int y = Height(tempRoot.Right);
+
+                if (x > y)
+                {
+                    return x + 1;
+                }
+                else
+                {
+                    return y + 1;
+                }
+            }
+
+            return 0;
+        }
+
 
         private static void PrintNodeElement(int element)
                 => Console.Write($"{element} ");
