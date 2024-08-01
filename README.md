@@ -1,7 +1,7 @@
 ## Data Structures in Computer Science
 
 ## Description
-This a project with the most common Data Structures implemented on C# under .NET Core 6.0 Runtime. For IDE was used Visual Studio Community 2022.
+This is a project with the most common Data Structures implemented on C# under .NET Core 6.0 Runtime. For IDE was used Visual Studio Community 2022.
 
 ## Table of content
 | Number | Name |
