@@ -3,7 +3,7 @@
 ## Description
 This is a project with the most common Data Structures implemented on C# under .NET Core 6.0 Runtime. For IDE was used Visual Studio Community 2022.
 
-## Table of content
+## Table of contents
 | Number | Name |
 | ----: | ----:|
 | 1. | Binary Search Tree |
