@@ -16,6 +16,8 @@ This a project with the most common Data Structures implemented on C# under .NET
 |8.| Stack *Array |
 |9.|Stack *Linked List|
 
+* - used to indicate what data structure is used to implement the content.
+
 ## Requirements
 IDE compatible to open *.sln with .NET Core 6.0 Runtime.
 
