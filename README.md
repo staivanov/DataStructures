@@ -19,7 +19,7 @@ This is a project with the most common Data Structures implemented on C# under .
 * - used to indicate what data structure is used to implement the content.
 
 ## Requirements
-IDE compatible to open *.sln with .NET Core 6.0 Runtime.
+IDE compatible to open *.sln with .NET Core 6.0 Runtime. The best IDEs for this project are Visual Studio xxxx 2022 and VS Code lates version.
 
 ## How to use this repository
 1. Clone this repo.
