@@ -71,15 +71,5 @@
         s.Push(5);
         s.Push(3);
         int element = s.Peak();
-
-
-
-
-
-
-
-
-
-
     }
 }
