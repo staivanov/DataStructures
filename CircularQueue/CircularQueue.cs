@@ -13,7 +13,6 @@
             numbers = new int[initialSize];
         }
 
-
         public void Enqueue(int number)
         {
             if (IsEmpty())
@@ -31,7 +30,6 @@
                 numbers[rear] = number;
             }
         }
-
 
         public int Dequeue()
         {
