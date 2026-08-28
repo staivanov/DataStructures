@@ -15,7 +15,6 @@ namespace LearnDSAlgorithms
             size = 0;
         }
 
-
         public void AddLast(int e)
         {
             Node newest = new(e, null, null);
@@ -35,7 +34,6 @@ namespace LearnDSAlgorithms
             size++;
         }
 
-
         public void AddFirst(int e)
         {
             Node newest = new(e, null, null);
@@ -54,7 +52,6 @@ namespace LearnDSAlgorithms
 
             size++;
         }
-
 
         public void AddAny(int e, int position)
         {
@@ -81,7 +78,6 @@ namespace LearnDSAlgorithms
             size++;
         }
 
-
         public int RemoveFirst()
         {
             if (IsEmpty())
@@ -106,7 +102,6 @@ namespace LearnDSAlgorithms
             return e;
         }
 
-
         public int RemoveLast()
         {
             if (IsEmpty())
@@ -122,7 +117,6 @@ namespace LearnDSAlgorithms
 
             return e;
         }
-
 
         public int RemoveAny(int position)
         {
@@ -148,7 +142,6 @@ namespace LearnDSAlgorithms
 
             return e;
         }
-
 
         public void Display()
         {
