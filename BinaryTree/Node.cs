@@ -6,7 +6,6 @@
         public Node Left { get; set; }
         public Node Right { get; set; }
 
-
         public Node(int element, Node left, Node right)
         {
             Element = element;
