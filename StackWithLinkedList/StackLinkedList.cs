@@ -15,7 +15,6 @@ namespace StackWithLinkedList
             size = 0;
         }
 
-
         public void Push(int e)
         {
             Node newest = new(e, null);
@@ -29,10 +28,8 @@ namespace StackWithLinkedList
                 newest.Next = top;
                 top = newest;
             }
-
             size++;
         }
-
 
         public int Pop()
         {
@@ -44,7 +41,6 @@ namespace StackWithLinkedList
             return lastElement;
         }
 
-
         public void Display()
         {
             Node p = top;
@@ -55,7 +51,6 @@ namespace StackWithLinkedList
                 p = p.Next;
             }
         }
-
 
         public int Peek()
             => size == emptyStack ? emptyStack : top.Element;
