@@ -14,7 +14,6 @@
             size = 0;
         }
 
-
         public void Enqueue(int e)
         {
             Node newest = new(e, null);
@@ -31,7 +30,6 @@
             rear = newest;
             size++;
         }
-
 
         public int Dequeue()
         {
@@ -54,7 +52,6 @@
             }
         }
 
-
         public void Display()
         {
             Node? p = front;
@@ -67,7 +64,6 @@
 
             Console.WriteLine();
         }
-
 
         public bool IsEmpty() => size == queueEmpty;
         public int Length() => size;
